@@ -11,7 +11,7 @@ const Navigator = () => {
   return (
     <div className="flex w-full justify-between">
       <div className="flex gap-2">
-        <a className="text-2xl font-semibold" href="" target="blank">
+        <a className="text-2xl font-semibold" href="https://x.com/mehan_05" target="blank">
           @mehan_05
         </a>
         <div className="flex items-end text-lg">
