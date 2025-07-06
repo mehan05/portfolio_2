@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Geist_Mono, Sour_Gummy } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import Link from "next/link";
-import { PlayAudio } from "@/components/helpers/PlayAudio";
 import Navigator from "@/components/Navigator";
 
 const geistMono = Geist_Mono({
@@ -18,6 +16,9 @@ const geistSour = Sour_Gummy({
 export const metadata: Metadata = {
   title: "meh",
   description: "A book of me",
+  icons:{
+    icon:"/mehan.svg"
+  }
 };
 
 export default function RootLayout({
