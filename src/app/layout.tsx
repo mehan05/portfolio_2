@@ -14,7 +14,7 @@ const geistSour = Sour_Gummy({
 });
 
 export const metadata: Metadata = {
-  title: "meh",
+  title: "Mehan",
   description: "A book of me",
   icons:{
     icon:"/mehan.svg"
