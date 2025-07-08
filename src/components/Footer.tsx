@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between w-full">
+    <div className="flex justify-between w-full h-full">
       <div className="flex flex-col gap-3">
         <p className="text-gray-400">
           <span> &copy;</span>2025 Mehan

@@ -16,9 +16,9 @@ const geistSour = Sour_Gummy({
 export const metadata: Metadata = {
   title: "Mehan",
   description: "A book of me",
-  icons:{
-    icon:"/mehan.svg"
-  }
+  icons: {
+    icon: "/mehan.svg",
+  },
 };
 
 export default function RootLayout({
@@ -31,12 +31,12 @@ export default function RootLayout({
       <body
         className={`${geistSour.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex justify-center items-center h-screen font-sour text-lg overflow-y-auto flex-wrap">
-          <div className="w-full sm:w-2/5 flex flex-col gap-4 h-full p-4 ">
+        <div className="flex w-full justify-center items-center  font-sour text-lg overflow-y-auto flex-wrap ">
+          <div className="w-full  md:w-4/5 flex flex-col gap-4 h-full p-4">
             <div className="flex flex-col gap-6 items-center h-full mt-10  ">
               <Navigator />
               {children}
-              <div className="w-full">
+              <div className="flex w-full h-full">
                 <Footer />
               </div>
             </div>

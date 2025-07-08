@@ -3,11 +3,11 @@ import GitHubCalendar from "react-github-calendar";
 
 const GIthubStats = () => {
   return (
-    <div className="flex flex-col gap-5 ">
-      <div className="">
+    <div className="flex flex-col justify-center items-center gap-5   w-full h-full">
+      <div className="flex">
             <p className="text-2xl font-semibold">Github Stats</p>
       </div>
-      <div  className=" ">
+      <div  className="w-full h-full flex justify-center items-center  overflow-y-auto">
         <GitHubCalendar username="mehan05" year={2025} />
       </div>
     </div>

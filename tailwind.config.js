@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mono: ['var(--font-geist-mono)'], // Connects to the CSS variable from the font
-        sour:['var(--font-sour']
+        sour:['var(--font-sour)']
       },
     },
   },

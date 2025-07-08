@@ -9,7 +9,7 @@ const Navigator = () => {
   console.log(pathName);
   const InsideProjectDetail = pathName.split("proof-of-work/")[1]||"";
   return (
-    <div className="flex w-full justify-between">
+    <div className="flex flex-col gap-2 sm:flex-row items-center w-full justify-between">
       <div className="flex gap-2">
         <a className="text-2xl font-semibold" href="https://x.com/mehan_05" target="blank">
           @mehan_05
@@ -22,15 +22,15 @@ const Navigator = () => {
       <div className=" flex gap-5 items-center">
         <PlayAudio />
         {pathName === "/proof-of-work" ? (
-          <Link href="/" className="cursor-pointer">
+          <Link href="/" className="cursor-pointer py-1 px-2 border rounded-xl">
             {"<="} Home
           </Link>
         ) : !!InsideProjectDetail ?(
-          <Link href="/proof-of-work" className="cursor-pointer">
+          <Link href="/proof-of-work" className="cursor-pointer py-1 px-2 border rounded-xl">
             {"<="} Proof_of_work
           </Link>
         ): (
-          <Link href="/proof-of-work" className="cursor-pointer">
+          <Link href="/proof-of-work" className="cursor-pointer py-1 px-2 border rounded-xl">
             Proof_of_work ={">"}
           </Link>
         )}
