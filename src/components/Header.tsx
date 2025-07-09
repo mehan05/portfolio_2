@@ -16,9 +16,6 @@ const Header = () => {
       </div>
       <div className="  text-justify ">
         <div className="pl-5 flex flex-col gap-3">
-          Prefix Min-Width Common Device sm 640px Small tablets / large phones
-          md 768px Tablets lg 1024px Laptops xl 1280px Desktops 2xl 1536px Large
-          desktops / high-res screens ￼ Example
           <p className="">
             gm gm. i’m a 19-year-old software engineer from India — currently
             vibing between Rust, Anchor, and Next.js.
